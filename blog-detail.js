@@ -34,7 +34,7 @@ function loadBlogDetail() {
                     month: "long",
                     day: "numeric",
                 });
-
+                
                 const detailHTML = `
                     <article class="max-w-4xl mx-auto">
                         <h1 class="text-3xl font-bold text-gray-900">${blog.title}</h1>
@@ -42,7 +42,15 @@ function loadBlogDetail() {
                         <div class="mt-6">
                             <img src="${blog.image}" alt="${blog.title}" class="w-full h-auto rounded-lg">
                         </div>
-                        <p class="mt-6 text-lg text-gray-700">${blog.body}</p>
+                        <p class="mt-6 text-lg text-justify text-gray-700">${Array.isArray(blog.body) ? blog.body[0] : blog.body}</p>
+                        <br>
+                        <p class="mt-6 text-lg text-justify text-gray-700">${Array.isArray(blog.body) ? blog.body[1] : blog.body}</p>
+                        <br>
+                        <p class="mt-6 text-lg text-justify text-gray-700">${Array.isArray(blog.body) ? blog.body[2] : blog.body}</p>
+                        <br>
+                        <p class="mt-6 text-lg text-justify text-gray-700">${Array.isArray(blog.body) ? blog.body[3] : blog.body}</p>
+
+                        <div class="mt-4 text-sm text-gray-600">Reference: <a class="hover:underline" target="_blank" href="${Array.isArray(blog.references) ? blog.references[1] : blog.references}">${Array.isArray(blog.references) ? blog.references[0] : blog.references}</a></div>
                         <div class="mt-4 text-sm text-gray-600">Category: ${blog.categories}</div>
                     </article>
                 `;
