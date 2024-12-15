@@ -42,48 +42,7 @@ function loadBlogDetail() {
                         <div class="mt-6">
                             <img src="${blog.image}" alt="${blog.title}" class="w-full h-auto rounded-lg">
                         </div>
-                        <p class="mt-6 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[0] : blog.body}</strong>
-                        </p>
-                        
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[1] : ""}
-                        </p>
-                        
-                        <p class="mt-4 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[2] : ""}</strong>
-                        </p>
-                        
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[3] : ""}
-                        </p>
-                        
-                        <p class="mt-4 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[4] : ""}</strong>
-                        </p>
-                        
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[5] : ""}
-                        </p>
-                        
-                        <p class="mt-4 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[6] : ""}</strong>
-                        </p>
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[7] : ""}
-                        </p>
-                        <p class="mt-4 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[8] : ""}</strong>
-                        </p>
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[9] : ""}
-                        </p>
-                        <p class="mt-4 text-lg text-justify text-gray-700">
-                            <strong>${Array.isArray(blog.body) ? blog.body[10] : ""}</strong>
-                        </p>
-                        <p class="mt-4 text-md text-justify text-gray-700">
-                            ${Array.isArray(blog.body) ? blog.body[11] : ""}
-                        </p>
+                        <div id="body">${blog.body}</div>
                         <div class="mt-4 text-sm text-gray-600">Reference: <a class="hover:underline" target="_blank" href="${Array.isArray(blog.references) ? blog.references[1] : blog.references}">${Array.isArray(blog.references) ? blog.references[0] : blog.references}</a></div>
                         <div class="mt-4 text-sm text-gray-600">Category: ${blog.categories}</div>
                     </article>

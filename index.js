@@ -18,23 +18,21 @@ const blogsListEl = document.getElementById("blogs");
 const blogData = {
     author: "Dimas Nurcahya",
     image: "https://plus.unsplash.com/premium_photo-1661907962224-a2c6087016cb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Mengenal IEEE: Organisasi Teknis Terbesar di Dunia",
-    references: ["IEEE - The world’s largest technical professional organization","https://www.ieee.org/"],
+    title: "Memahami IEEE 802.11: Evolusi dan Standar Teknologi Wi-Fi",
+    references: ["IEEE - Standards Association","https://standards.ieee.org/beyond-standards/the-evolution-of-wi-fi-technology-and-standards/"],
     categories: "Quality Assurance",
-    body: [
-        "Sejarah dan Latar Belakang",
-        "IEEE (Institute of Electrical and Electronics Engineers) adalah organisasi profesional teknis terbesar di dunia yang didedikasikan untuk memajukan teknologi demi kesejahteraan umat manusia. Organisasi ini didirikan pada tahun 1963 melalui penggabungan dua organisasi pendahulu, yaitu American Institute of Electrical Engineers (AIEE) yang didirikan pada tahun 1884 dan berfokus pada pengembangan teknologi listrik dan tenaga, serta Institute of Radio Engineers (IRE) yang didirikan pada tahun 1912 dan memusatkan perhatian pada teknologi komunikasi dan radio. Penggabungan ini mencerminkan evolusi teknologi dari sistem listrik menuju era elektronik dan komunikasi yang lebih kompleks. Hingga kini, IEEE terus berkomitmen untuk mendukung penelitian, pengembangan, dan penerapan teknologi yang memberikan dampak positif bagi masyarakat global.",
-        "Keanggotaan dan Jangkauan Global",
-        "IEEE memiliki lebih dari 1.300.000 anggota yang tersebar di lebih dari 160 negara. Keanggotaan ini mencakup para profesional, akademisi, peneliti, dan mahasiswa dalam bidang teknik, ilmu komputer, serta teknologi terkait. Manfaat yang diperoleh anggota meliputi akses ke berbagai jurnal, konferensi, dan makalah teknis, peluang untuk membangun jaringan profesional melalui forum diskusi, seminar, dan kelompok kerja, serta program sertifikasi untuk meningkatkan kompetensi teknis. Dengan kehadirannya di seluruh dunia, IEEE menjadi wadah penting bagi komunitas teknis untuk berkolaborasi dan berbagi pengetahuan.",
-        "Publikasi dan Konferensi",
-        "IEEE dikenal sebagai penerbit terkemuka untuk publikasi ilmiah dan teknis. Organisasi ini menyediakan lebih dari 200 jurnal yang membahas berbagai topik, mulai dari kecerdasan buatan hingga energi terbarukan. Salah satu publikasi terkenalnya adalah IEEE Spectrum, sebuah buletin yang memberikan wawasan terbaru tentang teknologi, sains, dan teknik. Selain itu, IEEE Xplore, platform digital organisasi ini, menawarkan akses ke jutaan artikel ilmiah. Setiap tahun, IEEE juga menyelenggarakan lebih dari 2.000 acara global, termasuk konferensi internasional, workshop, dan seminar yang membahas tantangan teknis terbaru dan solusi inovatif.",
-        "Standar Teknologi",
-        "Salah satu peran penting IEEE adalah pengembangan standar teknologi yang memastikan interoperabilitas, keamanan, dan efisiensi dalam berbagai industri. Standar-standar ini mencakup berbagai bidang seperti komunikasi, energi, dan otomatisasi. Contoh terkenal termasuk IEEE 802.11 untuk komunikasi nirkabel (Wi-Fi), IEEE 2030 untuk pengembangan Smart Grid, dan IEEE 11073 untuk perangkat kesehatan elektronik. Standar ini membantu memastikan bahwa produk dan sistem dari berbagai produsen dapat bekerja sama dengan lancar, sehingga meningkatkan kepercayaan dan efisiensi dalam industri.",
-        "Program Pengembangan Profesional",
-        "IEEE menawarkan berbagai program untuk mendukung pengembangan karier anggotanya, termasuk pelatihan teknis melalui webinar, kursus daring, dan sertifikasi di bidang teknologi terkini. Selain itu, workshop dan program pengembangan kepemimpinan dirancang untuk meningkatkan keterampilan manajerial. Bagi mahasiswa, IEEE menyediakan program mentorship dan beasiswa untuk mendukung generasi muda. Organisasi ini juga berkomitmen untuk mempromosikan diversitas, kesetaraan, dan inklusi melalui inisiatif seperti peningkatan kesetaraan gender dan dukungan untuk kelompok minoritas, menciptakan lingkungan yang inklusif bagi semua individu.",
-        "Kesimpulan",
-        "IEEE adalah organisasi yang berperan penting dalam mendorong perkembangan teknologi di berbagai bidang. Melalui publikasi, konferensi, standar teknologi, dan program pengembangan profesional, IEEE terus berkontribusi dalam memajukan ilmu pengetahuan dan teknik demi kesejahteraan umat manusia. Dengan jaringan global dan fokus pada inovasi, IEEE menjadi salah satu pendorong utama transformasi teknologi di dunia."
-    ],
+    body: `<p class='mt-4 text-md text-justify text-gray-700'>Wi-Fi adalah bagian integral dari kehidupan modern, memungkinkan konektivitas tanpa kabel yang mendukung berbagai aplikasi mulai dari streaming video hingga komunikasi bisnis. Di balik teknologi ini adalah serangkaian standar yang dikenal sebagai IEEE 802.11. Artikel ini akan menjelaskan apa itu IEEE 802.11, bagaimana evolusinya, dan mengapa ia menjadi pilar utama dalam dunia konektivitas nirkabel.</p><h2 class='mt-4 text-lg font-semibold text-gray-800'>Apa Itu IEEE 802.11?</h2><p class='mt-2 text-md text-justify text-gray-700'>IEEE 802.11 adalah standar yang dikembangkan oleh Institute of Electrical and Electronics Engineers (IEEE) untuk komunikasi jaringan lokal nirkabel (Wireless Local Area Network/WLAN). Standar ini pertama kali diperkenalkan pada tahun 1997 dan telah mengalami berbagai iterasi untuk meningkatkan kecepatan, efisiensi, dan jangkauan jaringan Wi-Fi.</p><h2 class='mt-4 text-lg font-semibold text-gray-800'>Sejarah dan Evolusi Standar IEEE 802.11</h2><p class='mt-2 text-md text-justify text-gray-700'>Berikut adalah evolusi utama dari standar IEEE 802.11:</p><ul class='list-disc list-inside mt-2 text-md text-gray-700'><li><strong>IEEE 802.11 (1997):</strong> Kecepatan transfer data hingga 2 Mbps.</li><li><strong>IEEE 802.11b (1999):</strong> Kecepatan hingga 11 Mbps pada pita 2,4 GHz.</li><li><strong>IEEE 802.11a (1999):</strong> Kecepatan hingga 54 Mbps pada pita 5 GHz.</li><li><strong>IEEE 802.11g (2003):</strong> Kombinasi kecepatan tinggi dengan kompatibilitas pita 2,4 GHz.</li><li><strong>IEEE 802.11n (2009):</strong> Teknologi MIMO dengan kecepatan hingga 600 Mbps.</li><li><strong>IEEE 802.11ac (2013):</strong> Kecepatan hingga 1 Gbps pada pita 5 GHz.</li><li><strong>IEEE 802.11ax (2019):</strong> Wi-Fi 6 dengan efisiensi tinggi dan kecepatan hingga 10 Gbps.</li></ul><h2 class='mt-4 text-lg font-semibold text-gray-800'>Dampak IEEE 802.11 terhadap Teknologi Modern</h2><p class='mt-2 text-md text-justify text-gray-700'>Standar IEEE 802.11 telah memberikan dampak besar pada:</p><ul class='list-disc list-inside mt-2 text-md text-gray-700'><li><strong>Konektivitas Universal:</strong> Wi-Fi menjadi standar global untuk konektivitas nirkabel.</li><li><strong>Produktivitas Bisnis:</strong> Mendukung kerja jarak jauh dan kolaborasi.</li><li><strong>Inovasi IoT:</strong> Mendukung perangkat Internet of Things dengan daya rendah dan jangkauan panjang.</li>
+    <li><strong>Peningkatan Kualitas Hidup:</strong> Dari rumah pintar hingga hiburan berkualitas tinggi.</li>
+    </ul>
+    <h2 class='mt-4 text-lg font-semibold text-gray-800'>Masa Depan IEEE 802.11</h2>
+    <p class='mt-2 text-md text-justify text-gray-700'>
+        Dengan teknologi seperti 5G dan Wi-Fi 7 (802.11be), masa depan IEEE 802.11 terlihat cerah. Wi-Fi 7 diharapkan mendukung kecepatan hingga 30 Gbps, latensi ultra-rendah, dan efisiensi tinggi untuk aplikasi seperti augmented reality (AR) dan virtual reality (VR).
+    </p>
+
+    <h2 class='mt-4 text-lg font-semibold text-gray-800'>Kesimpulan</h2>
+    <p class='mt-2 text-md text-justify text-gray-700'>
+        IEEE 802.11 adalah inti dari revolusi nirkabel yang telah mengubah cara kita bekerja, belajar, dan hidup. Dengan setiap iterasi, standar ini terus memenuhi tantangan baru dan mendukung ekosistem teknologi yang semakin kompleks. Sebagai pengguna, kita dapat berharap bahwa inovasi di bidang ini akan terus meningkatkan konektivitas, efisiensi, dan kenyamanan dalam kehidupan kita sehari-hari.
+    </p>`,
     timestamp: Date.now() // Timestamp saat ini
 };
 
@@ -85,7 +83,7 @@ function loadBlogs() {
                                     ${blog.title}
                                 </a>
                             </h3>
-                            <p class="mt-5 line-clamp-2 text-sm/6 text-gray-600">${blog.body}</p>
+                            <div class="mt-5 line-clamp-2 text-sm/6 text-gray-600" style="overflow: hidden;" dangerouslySetInnerHTML={{ __html: ${blog.body} }}></div>
                         </div>
                         <div class="relative mt-8 flex items-center gap-x-4">
                             
