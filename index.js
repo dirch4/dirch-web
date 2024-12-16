@@ -33,7 +33,7 @@ const blogData = {
     <p class='mt-2 text-md text-justify text-gray-700'>
         IEEE 802.11 adalah inti dari revolusi nirkabel yang telah mengubah cara kita bekerja, belajar, dan hidup. Dengan setiap iterasi, standar ini terus memenuhi tantangan baru dan mendukung ekosistem teknologi yang semakin kompleks. Sebagai pengguna, kita dapat berharap bahwa inovasi di bidang ini akan terus meningkatkan konektivitas, efisiensi, dan kenyamanan dalam kehidupan kita sehari-hari.
     </p>`,
-    timestamp: Date.now() // Timestamp saat ini
+    timestamp: new Date("2024-12-14T00:00:00Z").getTime()//Date.now() // Timestamp saat ini
 };
 
 // Tentukan id secara manual
